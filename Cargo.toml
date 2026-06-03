@@ -1,0 +1,11 @@
+[package]
+name = "git-branch-check"
+version = "0.1.0"
+edition = "2021"
+description = "Batch check if Git repo branches contain latest main branch commits"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+walkdir = "2"
+tabled = "0.15"
+anyhow = "1"

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo build *)",
+      "Bash(rustup show *)",
+      "Bash(where dlltool *)",
+      "Bash(where gcc *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(rustup default *)",
+      "PowerShell(cargo build *)",
+      "PowerShell(C:\\\\tmp\\\\gbc-target\\\\debug\\\\git-branch-check.exe \"D:\\\\桌面\\\\530-614\\\\603\\\\04\\\\60304\" --no-fetch 2>&1)",
+      "PowerShell(C:\\\\tmp\\\\gbc-target\\\\debug\\\\git-branch-check.exe --help)"
+    ]
+  }
+}
